@@ -1,0 +1,12 @@
+λ> T ∨ F
+T
+λ> T ∧ F
+F
+λ> (T ∧ F) = F
+T
+λ> let X = F
+X: F
+λ> let Y = ¬X
+Y: T
+λ> ¬X ∧ Y
+T
