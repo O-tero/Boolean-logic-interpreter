@@ -20,9 +20,9 @@ Here are some examples of valid expressions:
 
 `T ∨ F`
 
-`(T ∧ F) = F'
+`(T ∧ F) = F`
 
-`let X = F'
+`let X = F`
 
 `let Y = ¬X`
 
