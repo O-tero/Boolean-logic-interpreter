@@ -17,6 +17,7 @@ The expression can contain the following operators:
 - Parentheses can be used to change the precedence of operations.
 
 Here are some examples of valid expressions:
+
 'T ∨ F'
 
 `(T ∧ F) = F'
@@ -34,23 +35,3 @@ The interpreter follows the following operator precedence rules:
 1. Parentheses take precedence over all other operators.
 2. NOT (¬) takes precedence over AND (∧) and OR (∨).
 3. AND (∧) takes precedence over OR (∨).
-
-## Example Usage
-
-`λ> T ∨ F`
-T
-
-`λ> T ∧ F`
-F
-
-`λ> (T ∧ F) = F`
-T
-
-`λ> let X = F`
-X: F
-
-`λ> let Y = ¬X`
-Y: T
-
-`λ> ¬X ∧ Y`
-T
