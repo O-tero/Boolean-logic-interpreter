@@ -18,7 +18,7 @@ The expression can contain the following operators:
 
 Here are some examples of valid expressions:
 
-'T ∨ F'
+`T ∨ F`
 
 `(T ∧ F) = F'
 
